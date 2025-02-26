@@ -58,7 +58,7 @@ Secondly, the game shows a list of attributes. Each of them is set to 100% by de
 
 When the player performs an action in the game, the game can respond differently to the same action depending on the player's attributes. If the player meets the required attributes the game prints the main text response, otherwise it prints an alternative one. Attributes are influenced by both the player's choice of the percentages and by the chosen Type.
 
-## InventoryStorage/Storage system
+## Inventory / Storage system
 
 The main character has an inventory. It is implemented as a set of `Storage` objects. Besides the standard "Main character storage" (their hands, pockets), the `InventoryStorage` can contain "External storages" like bags, backpacks etc. The game also includes `Room` Storages - one for each room - these are unrelated to `InventoryStorage`.
 
