@@ -11,9 +11,9 @@ using namespace std;
 
 ---
 
-PA2 Semestral Work | "Adventure Engine"
+Adventure Engine
 Text-based RPG Engine
-by Mário Marton | ondovmar@fit.cvut.cz
+by Mário Marton
 
 ---
 
