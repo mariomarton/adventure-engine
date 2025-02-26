@@ -10,15 +10,18 @@ A flexible, C++ based, engine for creating text-based adventures and RGP games. 
 
 ---
 
-## Running the Engine, Games, Tests, and Doxygen
+## Running the Engine and Doxygen
 
 You can easily run the Adventure Engine using the provided `Makefile`.
 
+Running `make` will generate both the engine executable, and documentation.
+Alternatively, you can do these steps independently:
+
 ### Running the Engine
 1. Navigate to the root project directory.
-2. Compile the project by running:
+2. Run the following:
    ```sh
-   make
+   make compile
    ```
    This will generate the `run-adventure-engine` executable.
 3. To start a game, execute the following command, replacing `<game_name>` with the desired game:
@@ -30,12 +33,7 @@ You can easily run the Adventure Engine using the provided `Makefile`.
    ./run-adventure-engine exampleGame
    ./run-adventure-engine exampleGameSK
    ```
-
-### Running Tests
-To run the test suite, simply execute:
-```sh
-make test
-```
+   Alternatively, `make run` can also be used to run the engine, if the executable is present.
 
 ### Generating Documentation
 You can generate a full HTML documentation of the project using Doxygen by running:
