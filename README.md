@@ -94,6 +94,8 @@ Each game is in a separate directory in `./example`. Each game's root directory 
 
 The game creator can get inspired by the working example games in the `./example` directory. The keys and values must follow the same syntax as these example files. The key strings contain hints and explanations on how they work.
 
+The engine is not limited to supporting only the English language. Games can be created in any language – see `exampleGameSK` for a game in Slovak.
+
 ## Inheritance & Polymorphism
 
 ### Inheritance:
