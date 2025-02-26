@@ -1,0 +1,44 @@
+{
+  "ROOM DESCRIPTION (SHOWN WHEN ENTERED, BUT CAN BE SHOWN ON COMMAND LATER, TOO)": "You're now in a dark strange room. There's nothing, except a portal looking thing in the middle.",
+  
+  "TAKABLE OBJECTS":
+  {
+  },
+  
+  "NON-TAKABLE OBJECTS":
+  {
+    "PORTAL":
+    {
+      "NAMES":
+      [
+        "PORTAL",
+        "MIDDLE"
+      ],
+
+      "STAGES": 1,
+
+      "COMMAND RESPONSES":
+      {
+        "LOOK": 
+        [
+          {
+            "TEXT":             "It really looks like a portal. And it's making some quiet noises, they're nice. You feel like going in."
+          }
+        ],
+
+        "USE":
+        [
+          {
+            "TEXT":             "You've walked into the portal. I don't know what happened, maybe you died, maybe you went to a better place. Anyhow, this means the Game is completed. Congratulations, player.",
+            "CHANGE TO ROOM":   -1
+          }
+        ]
+
+      }
+    }
+  },
+  
+  "NPCS":
+  {}
+  
+}

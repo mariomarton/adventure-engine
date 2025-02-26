@@ -1,0 +1,115 @@
+{
+  "NUMBER OF EXTERNAL STORAGES TO BE LOADED INTO INVENTORY": 2,
+
+  "NUMBER OF ROOMS": 2,
+
+
+
+
+  "PRINT ANIMATION SPEED FOR ONE CHARACTER IN MS (DEFAULT = 12)": 0,
+
+  "TEXT - GAME OVER, DO YOU WANT TO PLAY AGAIN?": "Hra skončila! Chceš hrať znova?",
+
+
+
+  "WORD FOR SAVING": "ULOZ",
+
+  "WORD FOR LOADING": "NACITAJ",
+
+
+
+
+  "INTRO TEXTS":
+  {
+      "First intro text, e.g. 'Welcome to the world of Adventure Game XY. Now let's create your character!' ":
+    			"Vitaj v hre Adventure Game XY. Podme vytvorit tvoju postavu!",
+
+    	"Post-types-print text, e.g. 'These are the available Character Types. Choose one now by entering its number.":
+    			"Toto sú dostupné typy postáv. Vyber si teraz jeden zadaním jeho čísla.",
+
+    	"Attributes intro text, e.g. 'Great, now, we give you [PLAYER'S MAX INFLUENCE] coins that you can spend on improving your character. There are 4 attributes - Health, Power, IQ and Luck. Tell us how much you want to spend on each.":
+    			"Skvelé, teraz ti dávame 20 mincí, ktoré môžeš minúť na vylepšenie svojej postavy. Hra obsahuje 4 atribúty - Zdravie, Sila, Inteligencia a Šťastie. Povedz nám, koľko chceš minúť na každý z nich.",
+
+    	"Post character creation text, e.g. 'All set. Let's play.":
+    			"Všetko je nachystané, poďme hrať!"
+  },
+
+
+
+
+  "INVENTORY TEXTS":
+  {
+      "String for displaying inventory":
+          "INVENTAR",
+
+      "Text like '$ITEM_NAME was added to your inventory' (after $ITEM_NAME)":
+          "je teraz v inventary.",
+
+      "Text like '$ITEM_NAME was removed from your inventory' (after $ITEM_NAME)":
+          "uz nie je v inventary.",
+
+      "Text like 'Cannot add to inventory because it's full.'":
+          "Prepac, tvoj inventar je plny.",
+
+      "Text like 'Equipping/Unequipping successul!'":
+          "Operacia prebehla uspesne!.",
+
+      "Text like 'Equipping/Unequipping NOT successul!'":
+          "Operacia sa nepodarila. Toto nemozes urobit, napis INVENTAR pre viac informacii."
+  },
+
+
+
+
+
+  "WRONG INPUT TEXT":
+  		"Nerozumieme, skus este raz",
+
+  "GAME OVER TEXT (Also ask if player wants to play again)":
+  		"Oops, game over! Wanna try again? (Yes/No)",
+
+  "WORD FOR YES":
+  		"Ano",
+
+  "WORD FOR NO":
+  		"Nie",
+
+  "NAMES FOR A ROOM (IF THE PLAYERS ENTERS THESE WORDS, THIS GAME WILL REFER TO THE CURRENT ROOM)":
+  [
+      "izba",
+      "pokoj",
+      "room",
+      "priestor",
+      "misto",
+      "miesto",
+      "environment"
+  ],
+
+  "STRINGS TO BE IGNORED":
+  [
+  		".",
+  		",",
+  		"-",
+  		"?",
+  		"!",
+  		"tu",
+  		"to",
+  		"ten",
+  		"toto",
+  		"tohle",
+  		"ti",
+  		"tamto",
+  		"do",
+  		"na",
+  		"jeho",
+  		"svoj",
+      "svuj",
+      "svoje",
+      "in",
+      "on",
+      "from",
+      "behind",
+      "above"
+  ]		
+
+}

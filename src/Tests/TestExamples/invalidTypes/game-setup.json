@@ -1,0 +1,115 @@
+{
+  "NUMBER OF EXTERNAL STORAGES TO BE LOADED INTO INVENTORY": 2,
+
+  "NUMBER OF ROOMS": 2,
+
+
+
+
+  "PRINT ANIMATION SPEED FOR ONE CHARACTER IN MS (DEFAULT = 12)": 0,
+
+  "TEXT - GAME OVER, DO YOU WANT TO PLAY AGAIN?": "Game over! Do you want to play again?",
+
+
+
+  "WORD FOR SAVING": "SAVE",
+
+  "WORD FOR LOADING": "LOAD",
+
+
+
+
+  "INTRO TEXTS":
+  {
+      "First intro text, e.g. 'Welcome to the world of Adventure Game XY. Now let's create your character!' ":
+    			"Welcome to the world of Adventure Game XY. Now let's create your character!",
+
+    	"Post-types-print text, e.g. 'These are the available Character Types. Choose one now by entering its number.":
+    			"These are the available Character Types. Choose one now by entering its number.",
+
+    	"Attributes intro text, e.g. 'Great, now, we give you [PLAYER'S MAX INFLUENCE] coins that you can spend on improving your character. There are 4 attributes - Health, Power, IQ and Luck. Tell us how much you want to spend on each.":
+    			"Great, now, we give you 20 coins that you can spend on improving your character'. The game contains 4 attributes - Health, Power, Intelligence and Luck. Tell us how much you want to spend on each.",
+
+    	"Post character creation text, e.g. 'All set. Let's play.":
+    			"All set. Let's play!"
+  },
+
+
+
+
+  "INVENTORY TEXTS":
+  {
+      "String for displaying inventory":
+          "INVENTORY",
+
+      "Text like '$ITEM_NAME was added to your inventory' (after $ITEM_NAME)":
+          "was added to your inventory.",
+
+      "Text like '$ITEM_NAME was removed from your inventory' (after $ITEM_NAME)":
+          "was succesfully removed from your inventory.",
+
+      "Text like 'Cannot add to inventory because it's full.'":
+          "Sorry, your inventory is full.",
+
+      "Text like 'Equipping/Unequipping successul!'":
+          "Operation was successul!.",
+
+      "Text like 'Equipping/Unequipping NOT successul!'":
+          "Operation was NOT successul. You can't put or remove this from your hands. Type INVENTORY to see what's in your inventory and in your hands."
+  },
+
+
+
+
+
+  "WRONG INPUT TEXT":
+  		"We don't understand what you just wrote. Let's try again!",
+
+  "GAME OVER TEXT (Also ask if player wants to play again)":
+  		"Oops, game over! Wanna try again? (Yes/No)",
+
+  "WORD FOR YES":
+  		"Yes",
+
+  "WORD FOR NO":
+  		"No",
+
+  "NAMES FOR A ROOM (IF THE PLAYERS ENTERS THESE WORDS, THIS GAME WILL REFER TO THE CURRENT ROOM)":
+  [
+      "room",
+      "space",
+      "around",
+      "dungeon",
+      "place",
+      "surroundings",
+      "environment"
+  ],
+
+  "STRINGS TO BE IGNORED":
+  [
+  		".",
+  		",",
+  		"-",
+  		"?",
+  		"!",
+  		"for",
+  		"this",
+  		"that",
+  		"the",
+  		"a",
+  		"an",
+  		"my",
+  		"his",
+  		"her",
+  		"their",
+  		"its",
+      "at",
+      "for",
+      "in",
+      "on",
+      "from",
+      "behind",
+      "above"
+  ]		
+
+}

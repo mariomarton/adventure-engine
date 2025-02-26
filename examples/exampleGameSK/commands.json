@@ -1,0 +1,28 @@
+{  
+  "COMMANDS":
+  {
+    "ZATLAC": ["TLAC", "POTLAC"],
+    "OTVOR":  ["OTEVRI"],
+    "POZRI":  ["KOUKNI", "PODIVEJ"],
+    "ZOBER":	["SEBER", "VEM"],
+    "POUZI":  ["VYUZI"],
+    "ODOBER": ["VYMAZ", "SMAZ", "ZMAZ"],
+    "ZAUTOC": ["UDRI"],
+    "DR":     ["DO-RUKY"],
+    "ZR":     ["Z-RUKY"]
+  },
+
+  "COMMANDS -> NOTE - PLEASE PUT A SYNONOM TO EACH COMMAND.": null,
+
+
+
+  "COMMAND FOR ADDING TO STORAGE/INVENTORY": 		    "ZOBER",
+
+  "COMMAND FOR REMOVING FROM STORAGE/INVENTORY": 	  "ODOBER",
+
+  "COMMAND FOR STARTING COMBAT": 					          "ZAUTOC",
+
+  "COMMAND FOR EQUIPPING TO HAND":                  "DR",
+
+  "COMMAND FOR UN-EQUIPPING FROM HAND":             "ZR"
+}

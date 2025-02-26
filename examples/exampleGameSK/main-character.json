@@ -1,0 +1,43 @@
+{
+  "MAIN CHARACTER":
+  {
+
+    "NAMES":
+    [
+      "ME",
+      "I",
+      "CHARACTER",
+      "MYSELF"
+    ],
+
+    "HEALTH": 100,
+
+    "STAGES": 1,
+    "COMMAND RESPONSES":
+    {
+      "LOOK": 
+      [
+        {
+          "TEXT":     "The compass is broken. It always shows east.",
+          "EVENT ID": null
+        }
+      ],
+
+      "ATTACK": 
+      [
+        {
+          "TEXT":     "TODO should this be here?.",
+          "EVENT ID": null
+        }
+      ],
+
+      "PUSH": 
+      [
+        {
+          "TEXT":     "The compass is broken. It always shows east.",
+          "EVENT ID": null
+        }
+      ]
+    }
+  }
+}

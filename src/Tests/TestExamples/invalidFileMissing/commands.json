@@ -1,0 +1,28 @@
+{  
+  "COMMANDS":
+  {
+    "PUSH":     ["MOVE"],
+    "OPEN":     ["UNLOCK"],
+    "LOOK":     ["INSPECT", "SCAN"],
+    "TAKE":	    ["GRAB", "PUT"],
+    "USE":      ["UTILIZE", "UTILISE", "ENTER"],
+    "REMOVE":   ["DISCARD", "DELETE"],
+    "ATTACK":   ["HIT", "FIGHT"],
+    "EQUIP":    ["STOCK"],
+    "UNEQUIP":  ["DISCARD", "WITHDRAW"]
+  },
+
+  "COMMANDS -> NOTE - PLEASE PUT A SYNONOM TO EACH COMMAND.": null,
+
+
+
+  "COMMAND FOR ADDING TO STORAGE/INVENTORY": 		    "TAKE",
+
+  "COMMAND FOR REMOVING FROM STORAGE/INVENTORY": 	  "REMOVE",
+
+  "COMMAND FOR STARTING COMBAT": 					          "ATTACK",
+
+  "COMMAND FOR EQUIPPING TO HAND":                  "EQUIP",
+
+  "COMMAND FOR UN-EQUIPPING FROM HAND":             "UNEQUIP"
+}

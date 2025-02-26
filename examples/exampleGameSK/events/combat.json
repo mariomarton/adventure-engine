@@ -1,0 +1,49 @@
+{
+    "A string similar to 'You fought with' which will be followed by NPC's name":
+      
+        "You've fought with",
+
+
+    "A string similar to 'using' which will be followed by the main character's weapon name":
+      
+        "using your",
+
+
+    "A string similar to 'Your health is at' which will be followed by the health percentage":
+
+        "Your health is at",
+
+
+    "A string similar to 'The enemy finished you, you're dead'":
+
+        "The enemy finished you, you're dead",
+        
+
+
+    "Part 1 - A string similar to 'The health of (ENEMY->name) is at (HEALTH->percentage)%.' The part before (ENEMY->name)":
+
+        "The health of",
+
+
+    "Part 2 - A string similar to 'The health of (ENEMY->name) is at (HEALTH->percentage)%.' The part between (ENEMY->name) & (HEALTH->percentage)":
+
+        "is at",
+
+
+
+
+    "Part 1 - A string similar to 'You defeated (ENEMY->name), it's dead.' The part before (ENEMY->name)":
+
+        "You defeated",
+
+
+    "Part 2 - A string similar to 'You defeated (ENEMY->name), it's dead.' The part after (ENEMY->name)":
+
+        ", the enemy died",
+
+
+
+    "A string similar to 'You both survived. You can now attack again.' ":
+
+        "You both survived. You can now attack again."
+}

@@ -1,0 +1,55 @@
+{
+  "STAGES-UPDATES EVENTS":
+  [
+    {
+      "STAGES-UPDATES EVENT ID": 1,
+
+      "ENTITY - STAGE PAIRS":
+      {
+        "BENCH": 2,
+        "MONSTER": 3
+      }
+    },
+
+    {
+      "STAGES-UPDATES EVENT ID": 2,
+
+      "ENTITY - STAGE PAIRS":
+      {
+        "MAIN CHARACTER": 2,
+        "DOOR": 3
+      }
+    },
+
+    {
+      "STAGES-UPDATES EVENT ID": 19,
+
+      "ENTITY - STAGE PAIRS":
+      {
+        "APPLE": 2
+      }
+    },
+
+
+    {
+      "STAGES-UPDATES EVENT ID": 100,
+
+      "ENTITY - STAGE PAIRS":
+      {
+        "WALLET": 2,
+        "KEY": 2
+      }
+    },
+
+
+    {
+      "STAGES-UPDATES EVENT ID": 200,
+
+      "ENTITY - STAGE PAIRS":
+      {
+        "DOOR": 2,
+        "KEY": 3
+      }
+    }
+  ]
+}

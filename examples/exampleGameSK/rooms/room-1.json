@@ -1,0 +1,165 @@
+{
+  "ROOM DESCRIPTION (SHOWN WHEN ENTERED, BUT CAN BE SHOWN ON COMMAND LATER, TOO)": "Teraz ste v žalári. Je tam lavička. Vidíte, že na ňom niečo leží, vyzerá to ako človek. Nachádza sa tu aj desivo vyzerajúce monštrum. V diaľke môžete vidieť aj niečo, čo môžu byť dvere. Vedľa tvojich nôh je tiež jablko.",
+  
+  "TAKABLE OBJECTS":
+  {
+    "JABLKO":
+    {
+      "NAMES":
+      [
+        "JABLKO",
+        "APLE",
+        "FOOD"
+      ],
+
+      "QUANTITY": 1,
+
+      "STAGES": 2,
+
+      "COMMAND RESPONSES":
+      {
+        "POZRI": 
+        [
+          {
+            "TEXT":       "Je to pekne jablko.",
+            "ID OF STAGES UPDATE EVENT": 19
+          },
+          {
+            "TEXT":       "Pozrel si sa na jablko este raz a zmenilo ti to zivot. Hra dokoncena.",
+            "CHANGE TO ROOM": -1
+          }
+        ],
+        "ZATLAC":
+        [
+          {
+            "TEXT":       "Zatlacil si jablko. Teraz je inde."
+          }
+        ]
+      }
+    }
+  },
+  
+  "NON-TAKABLE OBJECTS":
+  {
+    "LAVICKA":
+    {
+      "NAMES":
+      [
+        "LAVICKA"
+      ],
+
+      "STAGES": 1,
+
+      "COMMAND RESPONSES":
+      {
+        "POZRI": 
+        [
+          {
+            "TEXT":       "Je to zaujimava cervena lavicka."
+          }
+        ]
+      }
+    },
+
+    "DVERE":
+    {
+      "NAMES":
+      [
+        "DVERE"
+      ],
+
+      "STAGES": 2,
+
+      "COMMAND RESPONSES":
+      {
+        "OTVOR": 
+        [
+          {
+            "TEXT":                       "Su zamknute.",
+            "ATTRIBUTE REQUIREMENTS":     [10, 10, 10, 10],  
+            "ALT TEXT":                   "The door cannot be opened."
+          },
+
+          {
+            "TEXT":                       "Otvoril si dvere a presiel si cez ne.",
+            "CHANGE TO ROOM":             2
+          }
+        ],
+
+        "POZRI": 
+        [
+          {
+            "TEXT":     "Pozrel si sa na dvere. Su to fakt dvere."
+          },
+
+          {
+            "TEXT":     "Pozrel si sa na dvere este raz. Stale su to dvere."
+          }
+        ]
+      }
+    }
+  },
+  
+  "NPCS":
+  {
+    "MUZ":
+    {
+      "NAMES":
+      [
+        "MUZ",
+        "chlap"
+      ],
+
+      "HEALTH": 25,
+      "COMBAT STATS [USES REMAINING, HIT POWER, HIT SPEED]": [1, 50, 70],
+
+      "STAGES": 1,
+      "COMMAND RESPONSES":
+      {
+        "POZRI": 
+        [
+          {
+            "TEXT":     "Stary muz spi na lavicke."
+          }
+        ],
+
+        "PUSH": 
+        [
+          {
+            "TEXT":     "You pushed the man. But nothing changed."
+          }
+        ]
+      }
+    },
+
+    "PRISERA":
+    {
+      "NAMES":
+      [
+        "PRISERA",
+        "OBLUDA"
+      ],
+
+      "HEALTH": 100,
+      "COMBAT STATS [USES REMAINING, HIT POWER, HIT SPEED]": [100, 500, 70],
+
+      "STAGES": 1,
+      "COMMAND RESPONSES":
+      {
+        "POZRI": 
+        [
+          {
+            "TEXT":     "Nie je dobry napad sa na tuto priseru len pozerat."
+          }
+        ],
+
+        "PUSH": 
+        [
+          {
+            "TEXT":     "Something tells you that just pushing the moster is not a good idea."
+          }
+        ]
+      }
+    }
+  }
+}

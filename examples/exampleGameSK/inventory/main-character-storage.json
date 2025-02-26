@@ -1,0 +1,147 @@
+{
+  "MAX CAPACITY": 10,
+
+  "OBJECT IN LEFT HAND": "SWORD",
+
+  "OBJECT IN RIGHT HAND": "FORK",
+
+  "OBJECTS":
+  {
+    "SWORD":
+    {
+      "NAMES":
+      [
+        "SWORD",
+        "BLADE"
+      ],
+
+      "COMBAT STATS [USES REMAINING, HIT POWER, HIT SPEED]": [2, 300, 133],
+
+      "QUANTITY": 1,
+
+      "STAGES": 1,
+
+      "COMMAND RESPONSES":
+      {
+        "LOOK": 
+        [
+          {
+            "TEXT":       "It's silver and shiny, seems powerful."
+          }
+        ]
+      }
+    },
+
+    "FORK":
+    {
+      "NAMES":
+      [
+        "FORK"
+      ],
+
+      "COMBAT STATS [USES REMAINING, HIT POWER, HIT SPEED]": [1, 125, 150],
+      
+      "QUANTITY": 2,
+
+      "STAGES": 1,
+
+      "COMMAND RESPONSES":
+      {
+        "LOOK": 
+        [
+          {
+            "TEXT":     "It's a normal fork for eating."
+          }
+        ]
+      }
+    },
+
+    "PENAZENKA":
+    {
+      "NAMES":
+      [
+        "PENAZENKA"
+      ],
+      
+      "QUANTITY": 1,
+
+      "STAGES": 2,
+
+      "COMMAND RESPONSES":
+      {
+        "POZRI": 
+        [
+          {
+            "TEXT":     "Normalna cierna penazenka..."
+          },
+
+          {
+            "TEXT":     "Normalna cierna penazenka..."
+          }
+        ],
+
+        "OTVOR": 
+        [
+          {
+            "TEXT":     "Pozrel si sa do penazenky a zistil si ze je tam kluc",
+            "ID OF STAGES UPDATE EVENT": 100,
+            "NOTE: THIS EVENT WILL INCREASE THE STAGE OF THE WALLET AND OF THE KEY.": null
+          },
+
+          {
+            "TEXT":     "Ako si uz predtym zistil, v penazenke je nejaky kluc."
+          }
+        ]
+
+      }
+    },
+
+    "KEY":
+    {
+      "NAMES":
+      [
+        "KEY"
+      ],
+      
+      "QUANTITY": 1,
+
+      "STAGES": 3,
+
+      "COMMAND RESPONSES":
+      {
+        "LOOK": 
+        [
+          {
+            "TEXT":     "We don't know what you mean."
+          },
+
+          {
+            "TEXT":     "It's a silver key. You don't know much about keys so it's hard to say anything more about it. Maybe you could use it."
+          },
+
+          {
+            "TEXT":     "It's a silver key. As you now know, it is for the door in the dungeon."
+          }
+        ],
+
+        "USE": 
+        [
+          {
+            "TEXT":     "We don't know what you mean."
+          },
+
+          {
+            "TEXT":     "You've put the key into the door. It worked, the door is unlocked!",
+            "ID OF STAGES UPDATE EVENT": 200,
+            "NOTE: THIS EVENT WILL INCREASE THE STAGE OF THE DOOR AND THE KEY.": null
+          },
+
+          {
+            "TEXT":     "You've already used to key to unlock the door. It's now unlocked."
+          }
+        ]
+
+      }
+    }
+  }
+}

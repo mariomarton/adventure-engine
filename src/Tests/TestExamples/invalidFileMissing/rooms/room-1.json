@@ -1,0 +1,170 @@
+{
+  "ROOM DESCRIPTION (SHOWN WHEN ENTERED, BUT CAN BE SHOWN ON COMMAND LATER, TOO)": "You're now in a dungeon. There's a bench. You see something laying on it, it looks like a person. There's also a scary looking monster here. In the distance, you can also see something that may be a door. Next to your feet, there's also an apple. Your inventory contains a wallet, a fork and a sword.",
+  
+  "TAKABLE OBJECTS":
+  {
+    "APPLE":
+    {
+      "NAMES":
+      [
+        "APPLE",
+        "APLE",
+        "FOOD"
+      ],
+
+      "QUANTITY": 1,
+
+      "STAGES": 2,
+
+      "COMMAND RESPONSES":
+      {
+        "LOOK": 
+        [
+          {
+            "TEXT":       "It's a tasty looking apple.",
+            "ID OF STAGES UPDATE EVENT": 19
+          },
+          {
+            "TEXT":       "You looked at the apple again, this was life-changing, you realised that life is just like this apple. You should enjoy it while you can. Game won!",
+            "CHANGE TO ROOM": -1
+          }
+        ],
+        "PUSH":
+        [
+          {
+            "TEXT":       "You pushed the apple, it fell from the bench."
+          }
+        ]
+      }
+    }
+  },
+  
+  "NON-TAKABLE OBJECTS":
+  {
+    "BENCH":
+    {
+      "NAMES":
+      [
+        "BENCH",
+        "PEW"
+      ],
+
+      "STAGES": 1,
+
+      "COMMAND RESPONSES":
+      {
+        "LOOK": 
+        [
+          {
+            "TEXT":       "You took a look at the bench. It's a pretty bench."
+          }
+        ]
+      }
+    },
+
+    "DOOR":
+    {
+      "NAMES":
+      [
+        "DOOR",
+        "DOR",
+        "EXIT"
+      ],
+
+      "STAGES": 2,
+
+      "COMMAND RESPONSES":
+      {
+        "OPEN": 
+        [
+          {
+            "TEXT":                       "The door is locked.",
+            "ATTRIBUTE REQUIREMENTS":     [10, 10, 10, 10],  
+            "ALT TEXT":                   "The door cannot be opened."
+          },
+
+          {
+            "TEXT":                       "You've unlocked the door with a key before and now you are trying to open it. It was hard to open this heavy door, but you managed. The door is now open. You've entered through the door.",
+            "CHANGE TO ROOM":             2
+          }
+        ],
+
+        "LOOK": 
+        [
+          {
+            "TEXT":     "You looked at the door. Yes, you are now sure that it really is a door. It has a lock."
+          },
+
+          {
+            "TEXT":     "You looked at the door. It has a lock. You've now used the key to unlock it. You could try to open it, too."
+          }
+        ]
+      }
+    }
+  },
+  
+  "NPCS":
+  {
+    "MAN":
+    {
+      "NAMES":
+      [
+        "MAN",
+        "PERSON",
+        "GUY",
+        "LAD"
+      ],
+
+      "HEALTH": 25,
+      "COMBAT STATS [USES REMAINING, HIT POWER, HIT SPEED]": [1, 50, 70],
+
+      "STAGES": 1,
+      "COMMAND RESPONSES":
+      {
+        "LOOK": 
+        [
+          {
+            "TEXT":     "The guy is sleeping on the bench. You can't see details"
+          }
+        ],
+
+        "PUSH": 
+        [
+          {
+            "TEXT":     "You pushed the man. But nothing changed."
+          }
+        ]
+      }
+    },
+
+    "MONSTER":
+    {
+      "NAMES":
+      [
+        "MONSTER",
+        "BEAST"
+      ],
+
+      "HEALTH": 100,
+      "COMBAT STATS [USES REMAINING, HIT POWER, HIT SPEED]": [100, 500, 70],
+
+      "STAGES": 1,
+      "COMMAND RESPONSES":
+      {
+        "LOOK": 
+        [
+          {
+            "TEXT":     "It's not a good idea to just look at the monster. The moster seems dangerous."
+          }
+        ],
+
+        "PUSH": 
+        [
+          {
+            "TEXT":     "Something tells you that just pushing the moster is not a good idea."
+          }
+        ]
+      }
+    }
+  }
+}
