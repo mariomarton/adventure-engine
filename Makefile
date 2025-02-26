@@ -1,7 +1,7 @@
 CXX = g++
 CXX_FLAGS = -std=c++17 -O2 -fsanitize=undefined -Wall -pedantic
 
-TARGET = run
+TARGET = run-adventure-engine
 
 # System commands
 MKDIR ?= mkdir
