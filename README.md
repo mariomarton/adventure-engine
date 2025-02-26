@@ -50,7 +50,7 @@ The generated documentation will be available in the `doc` directory, with the `
 
 ## Character creation
 
-When the player starts a game made in AdventureEngine, they first make choices that will affect their character.
+When the player starts a game made in Adventure Engine, they first make choices that will affect their character.
 
 Firstly, the game displays information about the possible types of the main character. The player then chooses one. For example "warrior" or "intellectual".
 
